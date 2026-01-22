@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Password_Staff</name>
+   <tag></tag>
+   <elementGuidId>14a3842b-d0c5-4321-9bbd-94f8c614160d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//form//input[
+  not(@type='hidden')
+  and contains(@style,'display')
+  and @required
+])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#lG9Pv6D7a1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d0b5d967-c231-449a-bc89-579a140824d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lG9Pv6D7a1</value>
+      <webElementGuid>409d185e-90ac-4850-80d3-59986290e8f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>lG9Pv6D7a1</value>
+      <webElementGuid>92913a19-88f7-4d00-96e6-b3f685210b84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lG9Pv6D7a1&quot;)</value>
+      <webElementGuid>7fd803b3-84ae-4070-9674-d0d7a93c8444</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='lG9Pv6D7a1']</value>
+      <webElementGuid>cc9e8657-df96-48f5-b734-7761f713c913</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='login-form']/input[4]</value>
+      <webElementGuid>a1a35f30-4cad-4a97-9f4f-718a86b335f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[4]</value>
+      <webElementGuid>7fb50ab7-16c6-40e7-b6ab-c790620df6be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'lG9Pv6D7a1' and @name = 'lG9Pv6D7a1']</value>
+      <webElementGuid>beb9e970-2833-43e9-87c9-2f1198afa60f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

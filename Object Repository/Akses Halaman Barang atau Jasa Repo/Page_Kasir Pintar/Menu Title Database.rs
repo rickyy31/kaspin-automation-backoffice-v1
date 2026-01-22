@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu Title Database</name>
+   <tag></tag>
+   <elementGuidId>f855d8ec-71c5-463f-92f5-5bc1b273b72a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.panel > a > p.upper-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href='#dataBarang']//p[contains(@class,'upper-text')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7e6bf058-3e1a-42da-a0d8-b25d62a09027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>upper-text</value>
+      <webElementGuid>d1c627b5-6a38-4754-a36c-1681b00cdf27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Database </value>
+      <webElementGuid>16487e2c-f199-4b46-8fb2-1c44c17b37f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordion&quot;)/li[@class=&quot;panel&quot;]/a[1]/p[@class=&quot;upper-text&quot;]</value>
+      <webElementGuid>c30d5c96-44bb-4892-a6aa-e660f150fc04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='accordion']/li[5]/a/p</value>
+      <webElementGuid>44a4f98c-55a3-4816-b410-4bc13b22156a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[1]/following::p[4]</value>
+      <webElementGuid>8b638636-151e-4680-ac86-1100ae02e6b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading…'])[1]/following::p[6]</value>
+      <webElementGuid>7b064896-93a9-40b2-b164-75a7ed6b3580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[2]/preceding::p[15]</value>
+      <webElementGuid>7eafee73-5513-4354-95a5-f5cbaa7c1205</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[3]/preceding::p[54]</value>
+      <webElementGuid>6ad18935-321b-4322-9872-1c0f1704424b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Database']/parent::*</value>
+      <webElementGuid>d005ba3d-c321-43ea-af81-6a27f9731713</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a/p</value>
+      <webElementGuid>d5fb9a41-9fee-416a-ba41-0d4271b64b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Database ' or . = 'Database ')]</value>
+      <webElementGuid>776e25ac-b10f-49d5-8cb7-ec8c2c021e74</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

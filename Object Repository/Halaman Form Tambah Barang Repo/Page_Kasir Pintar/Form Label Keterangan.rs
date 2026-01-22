@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Form Label Keterangan</name>
+   <tag></tag>
+   <elementGuidId>0a545fe7-436f-4be0-89f5-81c3b71b720d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='formAddProduct']/div[2]/div/div[16]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Keterangan&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2e6fd693-37a2-4ed9-980c-cfb8e0e79030</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-14 font-black medium</value>
+      <webElementGuid>9aef1b56-c7ef-4a54-adc4-11c7499a4ccb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keterangan</value>
+      <webElementGuid>dd67c910-13c2-40e3-b83a-d7a5e23eed64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formAddProduct&quot;)/div[@class=&quot;card card-v2 margin-top-20 margin-bottom-20&quot;]/div[@class=&quot;basic_data&quot;]/div[@class=&quot;row margin-top-20&quot;]/div[@class=&quot;col-sm-3&quot;]/span[@class=&quot;font-14 font-black medium&quot;]</value>
+      <webElementGuid>24ba18c3-fa8a-428c-bbfe-6c224e7897a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formAddProduct']/div[2]/div/div[16]/div/span</value>
+      <webElementGuid>29a30e74-90b7-4706-b01f-e24804896f58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semua Cabang'])[1]/following::span[1]</value>
+      <webElementGuid>f6fdcec2-c047-4743-890c-4fa333a53fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Cabang'])[1]/following::span[2]</value>
+      <webElementGuid>3e901064-5ea2-4134-9287-c12657450b7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi Toko Online (Olshopin)'])[1]/preceding::span[1]</value>
+      <webElementGuid>b577eb19-1d74-491b-8ac8-b26aa6bc806b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rich Text Editor, desc-olshop'])[1]/preceding::span[2]</value>
+      <webElementGuid>854042b8-60e0-4f20-9ac0-95dc67d7fac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Keterangan']/parent::*</value>
+      <webElementGuid>96f17771-d837-415e-9391-c009d162e090</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/span</value>
+      <webElementGuid>1ef998f1-1e6f-464c-bc1c-3d8dee1e5260</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Keterangan' or . = 'Keterangan')]</value>
+      <webElementGuid>1a6ac788-9f5a-420c-a188-cef96a339889</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

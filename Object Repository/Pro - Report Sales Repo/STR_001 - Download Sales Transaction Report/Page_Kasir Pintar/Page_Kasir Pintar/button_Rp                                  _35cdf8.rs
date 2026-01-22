@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Rp                                  _35cdf8</name>
+   <tag></tag>
+   <elementGuidId>50475a3d-0294-40a0-b448-d3892686b9e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td.desktop-action > button.btn.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;2023 17 Rp 185,260.00 Rp 163,030.00&quot;i] >> internal:role=button</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3d1a602a-4421-4cb7-90eb-8b184e0075ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm</value>
+      <webElementGuid>51e80d7f-5c56-4001-a7c1-79d09b24524a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d1d5773d-a0c8-47da-b8c3-d5a83baf6a91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>downloadNow('https://adonis.kpntr.com/account/download/laporan/2023')</value>
+      <webElementGuid>40a602da-395a-4925-8808-e1e3df1f47e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bg-main&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;main-panel-v2 bg-main&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;padd-main&quot;]/div[@class=&quot;card padd-card&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table wt-100&quot;]/tbody[@class=&quot;font-14&quot;]/tr[3]/td[@class=&quot;desktop-action&quot;]/button[@class=&quot;btn btn-sm&quot;]</value>
+      <webElementGuid>afcf7073-efa2-473d-99aa-76e2f15387f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>776833e6-aff1-4eef-8e51-3b159229bbfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[2]/preceding::button[2]</value>
+      <webElementGuid>80d845c9-5ec0-4511-b0c6-de572b0da95b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[5]/button</value>
+      <webElementGuid>c7739b17-ee00-4246-bde5-7ab781140517</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>fccf2d4f-d5ef-44f3-8f4c-cbed1d275893</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

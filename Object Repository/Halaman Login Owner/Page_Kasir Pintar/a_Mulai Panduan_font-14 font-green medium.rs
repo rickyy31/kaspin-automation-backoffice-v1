@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mulai Panduan_font-14 font-green medium</name>
+   <tag></tag>
+   <elementGuidId>f40755d7-555b-4364-a24c-e227d5dd7842</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Nanti')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.font-14.font-green.medium</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2709984b-ac1d-48e0-8bd1-826c6cb5744f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://laravel-qa.kpntr.com/account</value>
+      <webElementGuid>afef3fd6-f9c9-48f9-875a-29281d451007</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-14 font-green medium</value>
+      <webElementGuid>d18b1110-b719-41b0-abd9-90a388b9ac90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Nanti</value>
+      <webElementGuid>7a8b1d22-ef71-46a0-8814-5eccbe01e332</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bg-main&quot;]/div[@class=&quot;wrapper bg-white&quot;]/div[@class=&quot;main-panel-v2&quot;]/div[@class=&quot;content bg-white&quot;]/div[@class=&quot;padd-main&quot;]/div[1]/p[@class=&quot;margin-top-20&quot;]/a[@class=&quot;font-14 font-green medium&quot;]</value>
+      <webElementGuid>813ef168-2b02-4c75-b7e7-f2e37a8cec4f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Nanti')]</value>
+      <webElementGuid>31faf1d8-2de6-449c-89d4-5caeddce25d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Panduan'])[1]/following::a[1]</value>
+      <webElementGuid>b12fed4f-28a7-4c8c-bd19-e1ca17533c3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Toggle navigation'])[1]/following::a[2]</value>
+      <webElementGuid>e8f01132-49c5-4a84-bde3-b37e155602c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kirim Kritik &amp; Saran'])[1]/preceding::a[1]</value>
+      <webElementGuid>f2051c3c-70c3-48c4-960c-08f359d454ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemberitahuan'])[1]/preceding::a[2]</value>
+      <webElementGuid>0d84980f-a0e9-4bad-81ef-05931a5f0833</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nanti']/parent::*</value>
+      <webElementGuid>668fc00f-55f8-45e1-869b-3efb7fe19e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://laravel-qa.kpntr.com/account')])[7]</value>
+      <webElementGuid>568cafe8-94ae-4f16-8e4a-cb01e1ebed20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/a</value>
+      <webElementGuid>c5dc5a40-6a11-45e4-9ebf-99b4f513387c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://laravel-qa.kpntr.com/account' and (text() = 'Nanti' or . = 'Nanti')]</value>
+      <webElementGuid>64a1b9d2-ae0e-4ee4-a2df-2de0187076e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Form Label Stok</name>
+   <tag></tag>
+   <elementGuidId>ec21552f-d95a-4cf4-b0c4-aa8836085014</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='formAddProduct']/div[2]/div/div[8]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Stok *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>51c3df2e-f9ac-471f-8369-2b1cfb8faa32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-14 font-black medium</value>
+      <webElementGuid>56eeeae8-8492-4a70-8001-e98b703794b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stok *</value>
+      <webElementGuid>4e15b8c2-113c-401f-aec1-268238beb2f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formAddProduct&quot;)/div[@class=&quot;card card-v2 margin-top-20 margin-bottom-20&quot;]/div[@class=&quot;basic_data&quot;]/div[@class=&quot;row margin-top-20 flex-items-center&quot;]/div[@class=&quot;col-sm-3&quot;]/span[@class=&quot;font-14 font-black medium&quot;]</value>
+      <webElementGuid>3baffa9a-d033-4561-abb4-b3c6d43efac5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formAddProduct']/div[2]/div/div[8]/div/span</value>
+      <webElementGuid>2b83ce70-325a-4ed9-b7c5-cbac8fc6235e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Stok'])[1]/following::span[1]</value>
+      <webElementGuid>6f9221d5-c1ea-4646-af30-7f8605281d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[2]/following::span[2]</value>
+      <webElementGuid>742d934e-baac-4b5f-a7d6-95986a9b475e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Stok'])[1]/preceding::span[2]</value>
+      <webElementGuid>4e98a33f-a196-4d4e-98ba-4b0cd587e893</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Stok']/parent::*</value>
+      <webElementGuid>71a19b97-4890-4920-98df-c0993575122d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/span</value>
+      <webElementGuid>e2b8e34a-2e8b-4427-92d1-8111854dc5dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Stok *' or . = 'Stok *')]</value>
+      <webElementGuid>6ddae24b-2027-4fe3-9201-a0b50097ace9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

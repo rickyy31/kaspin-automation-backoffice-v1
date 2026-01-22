@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User berhasil login dan diarahkan ke halaman dashboard backoffice Owner.</description>
+   <name>LG_001</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bdb8af3c-11b5-4972-a918-9400f37a16f1</testCaseGuid>
+</TestCaseEntity>

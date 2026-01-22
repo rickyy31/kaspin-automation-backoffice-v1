@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Form Label Kategori</name>
+   <tag></tag>
+   <elementGuidId>7f31cfb8-a66b-453f-b8ba-b79638340f29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='formAddProduct']/div[2]/div/div[4]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#formAddProduct >> internal:text=&quot;Kategori&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>028c3830-d3ac-4b24-94d3-04e63c715a4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-14 font-black medium</value>
+      <webElementGuid>a56090c3-920e-492e-bfa2-0beec004d864</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kategori</value>
+      <webElementGuid>63bfeaaa-849a-48ca-aaef-b7e7b0a900e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formAddProduct&quot;)/div[@class=&quot;card card-v2 margin-top-20 margin-bottom-20&quot;]/div[@class=&quot;basic_data&quot;]/div[@class=&quot;row margin-top-20 flex-items-center&quot;]/div[@class=&quot;col-sm-3&quot;]/span[@class=&quot;font-14 font-black medium&quot;]</value>
+      <webElementGuid>5164aa02-1053-4d51-8aba-1b4f25ce0f20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formAddProduct']/div[2]/div/div[4]/div/span</value>
+      <webElementGuid>366aec26-6490-4d18-92c2-0cbff5ec4df5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::span[2]</value>
+      <webElementGuid>a7db4d81-2ac5-4659-9fe8-40d9b3eb0259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Kategori'])[1]/preceding::span[1]</value>
+      <webElementGuid>49cf3bee-b866-4f06-b25c-c8007ba9a658</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/span</value>
+      <webElementGuid>4864987b-1115-47b3-8c41-37dac598b288</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Kategori' or . = 'Kategori')]</value>
+      <webElementGuid>7f4f9e4c-4d1a-4b56-911b-395c0d2778da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

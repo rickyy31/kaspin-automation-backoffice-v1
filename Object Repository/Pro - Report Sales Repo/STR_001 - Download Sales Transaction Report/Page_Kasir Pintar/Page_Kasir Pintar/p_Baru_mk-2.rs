@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Baru_mk-2</name>
+   <tag></tag>
+   <elementGuidId>4feb20f7-3c16-4819-b8b9-68ed05e6be36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav > ul.nav > li.side-menu-not-active > a > p.mk-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='laporanPenjualan']/ul/ul/li/a/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#laporanPenjualan >> internal:role=link[name=&quot;Transaksi&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>0026f08e-84f6-48fa-9bce-4443b95089d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mk-2</value>
+      <webElementGuid>ddfae98f-dc6f-455a-b806-f662cf90811b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                            Transaksi</value>
+      <webElementGuid>b2f9a097-0915-4acb-80d4-16e9c5466b37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;laporanPenjualan&quot;)/ul[@class=&quot;nav&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;side-menu-not-active&quot;]/a[1]/p[@class=&quot;mk-2&quot;]</value>
+      <webElementGuid>662c5aca-407c-45b5-be62-0788d747d54f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='laporanPenjualan']/ul/ul/li/a/p</value>
+      <webElementGuid>6b0d8c96-12ff-4506-bee9-30999967b9a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[2]/following::p[10]</value>
+      <webElementGuid>78a6d2f6-b871-4759-a611-f2cb5f9440b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[1]/following::p[29]</value>
+      <webElementGuid>dbe00d37-b027-4798-822c-f248f4a94aba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[3]/preceding::p[30]</value>
+      <webElementGuid>51676d9c-b8ed-4153-aa26-96c579945d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baru'])[4]/preceding::p[31]</value>
+      <webElementGuid>159b340d-eaad-4cb7-9d04-e21aa79d2ae4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[3]/li/div/ul/ul/li/a/p</value>
+      <webElementGuid>51d23290-4eeb-4a3b-a53b-d18ebb28086b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '
+                                                            Transaksi' or . = '
+                                                            Transaksi')]</value>
+      <webElementGuid>65333053-44cc-438a-9505-d192ce980d98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

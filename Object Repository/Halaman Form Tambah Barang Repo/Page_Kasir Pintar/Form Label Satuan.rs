@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Form Label Satuan</name>
+   <tag></tag>
+   <elementGuidId>497b2cd0-64bb-4d5c-a3de-3aa39e8ab89a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='formAddProduct']/div[2]/div/div[10]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Satuan&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ff31f72f-bb37-4e79-a1fe-183b5f8584f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-14 font-black medium</value>
+      <webElementGuid>d55d2d19-0994-4861-a032-6321e920de90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Satuan</value>
+      <webElementGuid>0a0e8916-1db0-483d-9a02-ceea0be898de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formAddProduct&quot;)/div[@class=&quot;card card-v2 margin-top-20 margin-bottom-20&quot;]/div[@class=&quot;basic_data&quot;]/div[@class=&quot;row margin-top-20 flex-items-center&quot;]/div[@class=&quot;col-sm-3&quot;]/span[@class=&quot;font-14 font-black medium&quot;]</value>
+      <webElementGuid>849da785-09f3-477c-a895-fca951a552a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formAddProduct']/div[2]/div/div[10]/div/span</value>
+      <webElementGuid>b622230e-77a5-4f47-9693-cd30cb3229be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum Stok'])[1]/following::span[1]</value>
+      <webElementGuid>da84a9dd-1f23-4bcc-ba59-31d6204d999d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[2]</value>
+      <webElementGuid>e49e6ced-2b90-4917-a93b-1fc60db922be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berat (gram)'])[1]/preceding::span[1]</value>
+      <webElementGuid>7bcd4c8c-c521-4151-a9f3-b76a0cf869c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskon'])[2]/preceding::span[2]</value>
+      <webElementGuid>8d5e4581-1d2c-4e14-b5ec-d2346d9b901f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Satuan']/parent::*</value>
+      <webElementGuid>d5a48fd4-6672-4d98-9657-d1fd94c36160</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/span</value>
+      <webElementGuid>e537e5e6-d810-4bab-a65c-5e37c45ba3b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Satuan' or . = 'Satuan')]</value>
+      <webElementGuid>1e6f9cf0-80f6-4b9e-bd25-2b7d2182e2aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

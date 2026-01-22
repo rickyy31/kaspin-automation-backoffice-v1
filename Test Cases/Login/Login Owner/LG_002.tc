@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Berhasil menemukan halaman login melalui URL direct.</description>
+   <name>LG_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7264398-4363-4683-92cc-217d20ab6df4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Form Input Jenis Stok</name>
+   <tag></tag>
+   <elementGuidId>21e09239-1aaf-43f7-9399-80656f280c94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='stockType']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#stockType</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#stockType</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>73575b6e-9a58-4bff-b0e3-5090a4c25330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>stock_type</value>
+      <webElementGuid>3665e736-0e64-4fd6-ae53-9b524bf52a0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>35e8e49f-9763-4995-961a-f8216426e7b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>stockType</value>
+      <webElementGuid>dacfb304-e2f2-4d00-92f6-b6a323c996b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Barang (Limited Stock) 
+                                                                                            Jasa (Unlimited Stock)
+                                                                                    </value>
+      <webElementGuid>d84c15fa-2d4d-44c3-8d04-9dafddb8b5e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stockType&quot;)</value>
+      <webElementGuid>ecebb5b9-6f7c-4f6d-a151-0ff5e2a31199</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='stockType']</value>
+      <webElementGuid>869bebf6-7ce6-4ea3-b21d-a3a900d03b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='formAddProduct']/div[2]/div/div[7]/div[2]/select[2]</value>
+      <webElementGuid>36fd82f4-e6d4-453d-a2ba-d986ce55e130</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Stok'])[1]/following::select[2]</value>
+      <webElementGuid>bf6a8a61-e9f7-4568-877d-f22212808c5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp'])[2]/following::select[2]</value>
+      <webElementGuid>2da9366a-cf85-475e-aee2-ce24586dafb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::select[1]</value>
+      <webElementGuid>1da88229-a474-448e-bccc-09fda908179b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select[2]</value>
+      <webElementGuid>e976926a-24d8-4bc0-aeb8-f2f1e8344ae8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'stock_type' and @id = 'stockType' and (text() = '
+                                            Barang (Limited Stock) 
+                                                                                            Jasa (Unlimited Stock)
+                                                                                    ' or . = '
+                                            Barang (Limited Stock) 
+                                                                                            Jasa (Unlimited Stock)
+                                                                                    ')]</value>
+      <webElementGuid>ccd4c78e-6308-4749-b5e5-f5c8089b1add</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
