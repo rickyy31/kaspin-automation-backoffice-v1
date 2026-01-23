@@ -4,5 +4,6 @@
    <name>EP-D_001_Staff</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2f357903-30ac-4417-889d-8b5aede6d5da</testCaseGuid>
 </TestCaseEntity>

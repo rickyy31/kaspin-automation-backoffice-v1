@@ -4,9 +4,12 @@
    <name>KASPIN-BACKOFFICE-1</name>
    <tag></tag>
    <UUID>364f3933-d376-4fb6-ab51-7e5c910ba6f5</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Katalon Studio\KasPin\kaspin-automation-backoffice.v1\KASPIN-BACKOFFICE-1.prj</projectFileLocation>
+   <projectFileLocation>D:\Katalon Studio\KasPin\kaspin-automation-backoffice-v1\KASPIN-BACKOFFICE-1.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

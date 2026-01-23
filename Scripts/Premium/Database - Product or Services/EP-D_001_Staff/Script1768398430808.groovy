@@ -117,3 +117,7 @@ TestObject btnSimpan = findTestObject('Halaman Form Edit Barang/Button Simpan Ed
 WebUI.waitForElementClickable(btnSimpan, 10)
 WebUI.scrollToElement(btnSimpan, 2)
 WebUI.click(btnSimpan)
+
+WebUI.waitForPageLoad(10)
+
+WebUI.click(findTestObject('Halaman Form Edit Barang/Button Barang atau Jasa'))
