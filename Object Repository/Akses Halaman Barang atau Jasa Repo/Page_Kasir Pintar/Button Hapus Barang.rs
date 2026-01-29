@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Barang onTop</name>
+   <name>Button Hapus Barang</name>
    <tag></tag>
-   <elementGuidId>b39bbe6e-5a7f-4880-a034-55f26612c1bf</elementGuidId>
+   <elementGuidId>ea13df01-69bd-4df3-bad7-86b33e617339</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class,'dataTables_scrollBody')]//tbody/tr[td and count(td) >= 10][1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[contains(@onclick,'checkType')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

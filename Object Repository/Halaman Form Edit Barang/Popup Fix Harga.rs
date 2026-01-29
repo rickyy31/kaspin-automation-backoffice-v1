@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Barang onTop</name>
+   <name>Popup Fix Harga</name>
    <tag></tag>
-   <elementGuidId>b39bbe6e-5a7f-4880-a034-55f26612c1bf</elementGuidId>
+   <elementGuidId>4736606f-5da0-4273-8fa9-387dbdae9a82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class,'dataTables_scrollBody')]//tbody/tr[td and count(td) >= 10][1]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'modal-content')]//h4[.='Fix harga']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

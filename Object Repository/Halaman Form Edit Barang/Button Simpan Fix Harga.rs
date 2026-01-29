@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Barang onTop</name>
+   <name>Button Simpan Fix Harga</name>
    <tag></tag>
-   <elementGuidId>b39bbe6e-5a7f-4880-a034-55f26612c1bf</elementGuidId>
+   <elementGuidId>d67e908f-0d54-4dcd-9238-671764022534</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class,'dataTables_scrollBody')]//tbody/tr[td and count(td) >= 10][1]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@id='submit_harga']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -79,51 +79,38 @@ KeywordUtil.logInfo('Tipe Barang  : ' + tipeBarang)
 WebElement btnDetail = cols.get(11).findElement(By.tagName('button'))
 btnDetail.click()
 
-WebUI.click(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Button Edit Barang'))
+WebUI.click(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Button Hapus Barang'))
 
-WebUI.waitForPageLoad(20)
+TestObject btnConfirm = findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Button Konfirmasi Hapus')
 
-def randomNum = new Random().nextInt(9000) + 1000 // 4 digit
+WebUI.waitForElementVisible(btnConfirm, 10)
+WebUI.click(btnConfirm)
 
-WebUI.setText(findTestObject('Halaman Form Edit Barang/Form Edit Nama Barang'), "Brg Default Edit $randomNum")
+// Verif barang yang sudah terhapus dari list barang
+WebUI.delay(2) // kasih waktu reload
 
-// kelipatan 5 ribu, mulai 10rb – 95rb
-Random rnd = new Random()
+List<WebElement> allRows = WebUI.findWebElements(
+	findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Table List Barang'),
+	10
+)
 
-int hrgBeli = (rnd.nextInt(18) + 2) * 5000 // 10.000 – 95.000
+boolean isFound = false
 
-int hrgJual = hrgBeli + 5000 // pasti > harga beli
-
-WebUI.setText(findTestObject('Halaman Form Edit Barang/Form Edit Harga Beli'), hrgBeli.toString())
-
-WebUI.setText(findTestObject('Halaman Form Edit Barang/Form Edit Harga Jual'), hrgJual.toString())
-
-TestObject btnSimpan = findTestObject('Halaman Form Edit Barang/Button Simpan Edit Barang')
-
-WebUI.waitForElementClickable(btnSimpan, 10)
-
-WebUI.scrollToElement(btnSimpan, 2)
-
-WebUI.click(btnSimpan)
-
-if (WebUI.verifyElementVisible(findTestObject('Halaman Form Edit Barang/Popup Fix Harga'), FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Halaman Form Edit Barang/Button Simpan Fix Harga'))
-} else {
-    WebUI.comment('Popup Fix Harga tidak muncul')
+for (WebElement r : allRows) {
+	if (r.getText().contains(namaBarang)) {
+		isFound = true
+		break
+	}
 }
 
-WebUI.waitForPageLoad(10)
+// Logging dulu sebelum verify
+if (isFound) {
+	println("Barang masih ditemukan setelah dihapus: " + namaBarang)
+	KeywordUtil.logInfo("Barang masih ditemukan setelah dihapus: " + namaBarang)
+} else {
+	println("Barang berhasil dihapus, tidak ditemukan di tabel: " + namaBarang)
+	KeywordUtil.logInfo("Barang berhasil dihapus, tidak ditemukan di tabel: " + namaBarang)
+}
 
-WebUI.click(findTestObject('Halaman Form Edit Barang/Button Barang atau Jasa'))
-
-WebUI.waitForPageLoad(10)
-
-// Verif detail produk paling atas
-println('Nama Barang  : ' + namaBarang)
-KeywordUtil.logInfo('Nama Barang  : ' + namaBarang)
-println('Harga Jual   : ' + hargaJual)
-KeywordUtil.logInfo('Harga Jual   : ' + hargaJual)
-println('Harga Dasar  : ' + hargaDasar)
-KeywordUtil.logInfo('Harga Dasar  : ' + hargaDasar)
-println('Tipe Barang  : ' + tipeBarang)
-KeywordUtil.logInfo('Tipe Barang  : ' + tipeBarang)
+// Assertion final
+WebUI.verifyEqual(isFound, false)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG_003_Staff</name>
+   <name>DP-D_001_Staff</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b184ffcd-686d-4335-9e3e-06dd589e46a2</testCaseGuid>
+   <testCaseGuid>bd9c685f-6f08-4331-86dc-b34da838a909</testCaseGuid>
 </TestCaseEntity>
