@@ -85,7 +85,7 @@ WebUI.waitForPageLoad(20)
 
 def randomNum = new Random().nextInt(9000) + 1000 // 4 digit
 
-WebUI.setText(findTestObject('Halaman Form Edit Barang/Form Edit Nama Barang'), "Brg Default Edit $randomNum")
+WebUI.setText(findTestObject('Halaman Form Edit Barang/Form Edit Nama Barang'), "Brg Edit $randomNum")
 
 // kelipatan 5 ribu, mulai 10rb – 95rb
 Random rnd = new Random()

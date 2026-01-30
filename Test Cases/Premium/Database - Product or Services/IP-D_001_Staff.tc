@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Product Default - Type Product</description>
+   <name>IP-D_001_Staff</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b8f09116-7eab-420b-bbc3-75747956fd86</testCaseGuid>
+</TestCaseEntity>

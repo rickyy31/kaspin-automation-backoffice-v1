@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Import Produk</name>
+   <tag></tag>
+   <elementGuidId>6270a98f-ecab-42e3-a1f6-c298bdd9d957</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.button-primer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href='https://laravel-qa.kpntr.com/account/other/import_products_v2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7cb0eef7-6967-4ec9-a56e-b342157e7fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://laravel-qa.kpntr.com/account/product/add</value>
+      <webElementGuid>bf49711d-e6f2-462e-a6b3-57208e94f3bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn button-primer</value>
+      <webElementGuid>c94a60d7-ed15-4a16-8868-6667820774ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Produk</value>
+      <webElementGuid>ea33550b-3300-4801-906c-1bff71d17324</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;get_checkbox&quot;)/div[@class=&quot;card padd-card margin-top-20&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-9&quot;]/a[@class=&quot;btn button-primer&quot;]</value>
+      <webElementGuid>2fa2c1b1-f7c8-4e93-a9dd-30aca6793757</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='get_checkbox']/div[2]/div/div/a</value>
+      <webElementGuid>87a2edae-3884-415c-8f4a-81aaa384dd09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Tambah Produk')]</value>
+      <webElementGuid>2cd2b54f-3a9b-4f8f-bcd3-20adb67ed408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutorial'])[1]/following::a[1]</value>
+      <webElementGuid>cd3dfb85-efa3-4141-ab87-78240ae6fead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Database / Barang atau Jasa'])[1]/following::a[2]</value>
+      <webElementGuid>f5e359f6-8a95-47c8-80a3-2ffd8295d76c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import Produk Baru'])[1]/preceding::a[1]</value>
+      <webElementGuid>6af9a195-1146-4ba4-b056-36ee6fcc55a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Export/Import Edit Produk'])[1]/preceding::a[2]</value>
+      <webElementGuid>6a8f9c50-c6f6-4b3f-bcd7-dca5b0e04109</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah Produk']/parent::*</value>
+      <webElementGuid>200c1846-df83-4730-8e31-3f1d8036f459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://laravel-qa.kpntr.com/account/product/add')]</value>
+      <webElementGuid>8ac20e76-5659-45f9-a17c-c739f5d8cf4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/a</value>
+      <webElementGuid>50ba93ab-da58-409e-8db2-46195d3b6910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://laravel-qa.kpntr.com/account/product/add' and (text() = 'Tambah Produk' or . = 'Tambah Produk')]</value>
+      <webElementGuid>a8a2dad2-a0f0-447f-a0aa-31922ab33ba0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

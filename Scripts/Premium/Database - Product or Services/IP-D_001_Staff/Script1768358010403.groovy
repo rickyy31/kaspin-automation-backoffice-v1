@@ -29,6 +29,15 @@ import groovy.json.JsonSlurper as JsonSlurper
 import java.nio.file.Files as Files
 import java.nio.file.Paths as Paths
 
+//======================================================
+//
+//STEP:
+//1. Siapkan file import
+//2. Perhatikan kode barang supaya tidak ada duplikat
+//3. Run Script
+//
+//======================================================
+
 def currentUrl = WebUI.getUrl(FailureHandling.OPTIONAL)
 
 // Jika browser belum buka ATAU browser terbuka tapi balik ke halaman landing/login
@@ -58,7 +67,7 @@ WebUI.verifyElementText(findTestObject('Akses Halaman Barang atau Jasa Repo/Page
 
 WebUI.verifyElementClickable(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Button Tambah Produk'))
 
-WebUI.click(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Button Tambah Produk'))
+WebUI.click(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Button Import Produk'))
 
 WebUI.waitForPageLoad(20)
 
