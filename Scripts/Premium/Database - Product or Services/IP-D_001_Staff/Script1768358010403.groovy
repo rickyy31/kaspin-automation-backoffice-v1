@@ -20,6 +20,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.util.Random as Random
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 // imports khusus cookie
 import org.openqa.selenium.Cookie as Cookie
 import org.openqa.selenium.WebDriver as WebDriver
@@ -42,7 +43,7 @@ def currentUrl = WebUI.getUrl(FailureHandling.OPTIONAL)
 
 // Jika browser belum buka ATAU browser terbuka tapi balik ke halaman landing/login
 if ((currentUrl == null) || currentUrl.contains('login')) {
-    WebUI.callTestCase(findTestCase('Test Cases/Login/Login Staff/LG_003_Staff'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Test Cases/Login/Login Staff/LG_S_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.navigateToUrl('https://laravel-qa.kpntr.com/account/other' // Jika masih login, langsung pindah halaman
         )
@@ -71,60 +72,16 @@ WebUI.click(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pinta
 
 WebUI.waitForPageLoad(20)
 
-WebUI.verifyElementText(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Judul Halaman Tambah Produk'), 
-    'Tambah Produk')
+String filePath = RunConfiguration.getProjectDir() + '/FIle/TEMPLATE_BARANG.xls'
 
-WebUI.selectOptionByValue(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Tipe Barang'), 'default', 
-    false)
+TestObject btnUpload = findTestObject('Akses Halaman Barang atau Jasa Repo/Export Import Barang/Upload File Import')
+TestObject scroll = findTestObject('Akses Halaman Barang atau Jasa Repo/Export Import Barang/Label Upload File Import')
 
-WebUI.click(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Upload Foto Barang'))
+WebUI.scrollToElement(scroll, 5)
+WebUI.waitForElementClickable(scroll, 10)
+WebUI.uploadFile(btnUpload, filePath)
 
-WebUI.waitForElementVisible(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Popup Upload Gambar'), 
-    5)
-
-WebUI.verifyTextPresent('Upload Gambar', false)
-
-WebUI.uploadFile(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Choose File Gambar'), 'E:\\JOB\\KasPin\\SS\\gambar testing1.png')
-
-TestObject btnOke = findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar//Button Oke Upload Gambar')
-
-WebUI.scrollToElement(btnOke, 5)
-WebUI.waitForElementClickable(btnOke, 10)
-WebUI.click(btnOke)
-
-def randomNum = new Random().nextInt(9000) + 1000 // 4 digit
-
-WebUI.setText(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Nama Barang'), "Default $randomNum")
-
-WebUI.click(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Button Kode Barang'))
-
-WebUI.setText(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Harga Beli'), '15000')
-
-WebUI.setText(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Harga Jual'), '20000')
-
-WebUI.selectOptionByValue(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Jenis Stok'), '0', 
-    true)
-
-WebUI.setText(findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Form Input Stok'), '100')
-
-// scroll ke button Simpan
-WebUI.executeJavaScript('\n    let btn = document.getElementById(\'Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Button Simpan Tambah Barang\');\n    if (btn) {\n        btn.scrollIntoView({block: \'center\'});\n    }\n', 
-    null)
-
-WebUI.delay(1)
-
-// klik Simpan
-TestObject btn = findTestObject('Halaman Form Tambah Barang Repo/Page_Kasir Pintar/Button Simpan Tambah Barang')
-
-WebUI.executeJavaScript('\n    arguments[0].scrollIntoView({block: \'center\'});\n', Arrays.asList(WebUI.findWebElement(
-            btn, 10)))
-
-WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(btn, 10)))
-
-WebUI.waitForPageLoad(20)
-
-WebUI.verifyElementText(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Judul Halaman Barang atau Jasa'), 
-    'Barang atau Jasa')
+WebUI.click(findTestObject('Akses Halaman Barang atau Jasa Repo/Export Import Barang/Button Submit'))
 
 // Verifikasi produk paling atas
 WebElement row = WebUI.findWebElement(findTestObject('Akses Halaman Barang atau Jasa Repo/Page_Kasir Pintar/Barang onTop'), 

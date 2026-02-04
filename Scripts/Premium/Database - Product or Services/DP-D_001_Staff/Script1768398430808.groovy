@@ -19,13 +19,14 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import java.util.Random as Random
 
 def currentUrl = WebUI.getUrl(FailureHandling.OPTIONAL)
 
 // Jika browser belum buka ATAU browser terbuka tapi balik ke halaman landing/login
 if ((currentUrl == null) || currentUrl.contains('login')) {
-    WebUI.callTestCase(findTestCase('Test Cases/Login/Login Staff/LG_003_Staff'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Test Cases/Login/Login Staff/LG_S_001'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.navigateToUrl('https://laravel-qa.kpntr.com/account/other' // Jika masih login, langsung pindah halaman
         )
