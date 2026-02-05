@@ -58,36 +58,33 @@ WebDriver driver = DriverFactory.getWebDriver()
 // inject cookie dengan lebih aman: buat builder dan panggil expiresOn hanya ketika ada expiry
 for (def c : cookieList) {
     try {
-        // buat builder
-        Cookie.Builder builder = new Cookie.Builder(((c.name) as String), ((c.value) as String)).domain(((c.domain) as String)).path(
-                ((c.path) as String))
+        Cookie.Builder builder = new Cookie.Builder(
+            c['name'] as String,
+            c['value'] as String
+        ).domain(c['domain'] as String)
+         .path(c['path'] as String)
 
-        // set secure jika atribut ada
         if (c.containsKey('isSecure')) {
-            // beberapa format mungkin pakai boolean atau string "true"
-            builder = builder.isSecure(((c.isSecure) as boolean))
+            builder = builder.isSecure(c['isSecure'] as boolean)
         }
         
-        // set httpOnly jika ada
         if (c.containsKey('isHttpOnly')) {
-            builder = builder.isHttpOnly(((c.isHttpOnly) as boolean))
+            builder = builder.isHttpOnly(c['isHttpOnly'] as boolean)
         }
         
-        // set expiry hanya kalau ada
-        if (c.expiry) {
-            Date exp = new Date(((c.expiry) as Long))
-
+        if (c['expiry']) {
+            Date exp = new Date(c['expiry'] as Long)
             builder = builder.expiresOn(exp)
         }
         
         Cookie cookie = builder.build()
-
         driver.manage().addCookie(cookie)
     }
     catch (Exception e) {
-        println("Gagal menambahkan cookie $c.name : " + e.getMessage()) // lanjutkan ke cookie berikutnya (tidak menghentikan seluruh test)
+        println("Gagal menambahkan cookie ${c['name']} : " + e.getMessage())
     } 
 }
+
 
 println('Cookies berhasil diinjeksi (sebisa mungkin).')
 

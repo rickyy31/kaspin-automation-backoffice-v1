@@ -4,5 +4,6 @@
    <name>LG_004</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>607d9782-23a1-4610-b59c-6f57e135f0cf</testCaseGuid>
 </TestCaseEntity>

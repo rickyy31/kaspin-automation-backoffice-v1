@@ -30,14 +30,15 @@ import groovy.json.JsonSlurper as JsonSlurper
 import java.nio.file.Files as Files
 import java.nio.file.Paths as Paths
 
-//======================================================
+//========================================================
 //
 //STEP:
 //1. Siapkan file import
 //2. Perhatikan kode barang supaya tidak ada duplikat
+//3. Copy/Paste ke folder 'File' di dalam project Katalon
 //3. Run Script
 //
-//======================================================
+//========================================================
 
 def currentUrl = WebUI.getUrl(FailureHandling.OPTIONAL)
 
